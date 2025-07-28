@@ -6,8 +6,8 @@ import seaborn as sns
 
 
 # Load data inside the app
-X_test_report = pd.read_csv("X_test_report1.csv")
-importance_df = pd.read_csv("importance_df1.csv")
+X_test_report = pd.read_csv("X_test_report.csv")
+importance_df = pd.read_csv("importance_df.csv")
 
 # Assuming these dataframes are already in your notebook session:
 # X_test_report with predicted_glv, actual_glv, is_repeated_guest, is_canceled
